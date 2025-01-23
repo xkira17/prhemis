@@ -224,7 +224,12 @@
           </div>
           <div class="login">
             <div class="login-input">
-              <input type="text" placeholder="Talaba ID" />
+              <input
+                type="text"
+                id="inputId"
+                placeholder="Talaba ID"
+                oninput="findAnswer()"
+              />
               <i class="bx bxs-envelope"></i>
             </div>
             <div class="pass-input">
@@ -250,162 +255,8 @@
     </main>
     <!-- <div class="data-wrapper">abgdhbgh</div> -->
 
-    <section class="otvet active">
-      <p>
-        1. “_____ Martha English?” “Yes, she _____.” Ответ: C) Is / is 2. “_____
-        her surname Smith?” “No, it _____.” Ответ: C) Is / isn’t 3. She gets up
-        early _____ the morning. Ответ: B) in 4. She gets up early _____ the
-        weekdays. Ответ: C) on 5. He takes photos only _____ spring. Ответ: A)
-        in 6. They never go out _____ Friday evenings. Ответ: A) on 7. _____
-        summer I play tennis _____ Sundays. Ответ: C) In / on 8. I didn’t enjoy
-        math lessons _____ I was at school. Ответ: B) when 9. I’ll be home _____
-        7 o’clock. Ответ: A) by 10. Teachers work _____, but they don’t earn
-        much money. Ответ: C) hard 11. • Lunch is a _____ meal for many people.
-        Ответ: A) quick 12. • Life in New York is very _____. Ответ: B) exciting
-        13. • The teacher was _____ when nobody did the homework. Ответ: A)
-        annoyed 14. • The team played _____ and lost the match. Ответ: A) badly
-        15. • Please listen _____. Ответ: B) carefully 16. • The homework was
-        the _____. Ответ: D) easiest 17. • Peter’s very _____ at tennis. He won
-        the game. Ответ: C) good 18. • Someone whose job is to make bread, cakes
-        is a _____. Ответ: A) baker 19. • Someone who works in a shop that sells
-        meat is a _____. Ответ: B) butcher 20. • Someone whose job is to cut
-        men’s hair is a _____. Ответ: D) barber 21. • Someone whose job is to
-        treat people’s teeth is a _____. Ответ: C) dentist 22. • My wife’s
-        mother is my _____. Ответ: A) mother-in-law 23. • My uncle’s or aunt’s
-        child is my _____. Ответ: A) cousin 24. • My sister’s husband is my
-        _____. Ответ: B) brother-in-law 25. • My children’s mother is my _____.
-        Ответ: A) wife 26. • Match the word ‘Laptop’ with its definition. Ответ:
-        B) A portable computer that you can carry easily 27. • Match the word
-        ‘E-books’ with its definition. Ответ: B) A type of book that you can
-        read on a computer or tablet 28. • Match the word ‘Research’ with its
-        definition. Ответ: C) Looking for information on a specific topic 29. •
-        What does this abbreviation mean ‘SDRAM’? Ответ: B) Synchronous dynamic
-        random access memory 30. • What does this abbreviation mean ‘CD-ROM’?
-        Ответ: D) Compact Disk-Read Only Memory 31. • They _____ soccer in the
-        park at the moment. Ответ: B) are playing 32. • I _____ TV because I am
-        studying. Ответ: C) am not watching 33. • What ___ you ____ this
-        weekend? Ответ: A) are, doing 34. • He ____ dinner for his family now.
-        Ответ: B) is cooking 35. • We ____ to the party right now. Ответ: A)
-        aren’t going 36. • The children _____ video games in the living room
-        now. Ответ: B) are playing 37. • I _____ for my exams this week. Ответ:
-        B) am studying 38. • She _____ at the concert right now. Ответ: B) isn’t
-        singing 39. • What _____ he _____? Ответ: A) is, making 40. • She _____
-        her new book right now. Ответ: B) is reading 41. • They _______ to the
-        music at the moment. Ответ: B) are listening 42. • I _______ my friends
-        this weekend. Ответ: B) am visiting 43. • He ______ his homework now.
-        Ответ: B) is doing 44. • We _____ for the exam this week. Ответ: B) are
-        studying 45. • The children ______ in the park at the moment. Ответ: B)
-        are playing 46. • She _______ a presentation for her job right now.
-        Ответ: B) is preparing 47. • I ______ my parents at the moment. Ответ:
-        B) am calling 48. • They _______ a great time at the festival this year.
-        Ответ: B) are having 49. • He ______ his old friends at the reunion
-        right now. Ответ: B) is meeting 50. • My dad is ______ in the street.
-        Ответ: D) walking 51. • He ______ to the gym every weekend. Ответ: B)
-        goes 52. • Match the word ‘social media’ with its definition. Ответ: B)
-        Websites and applications that allow people to connect and share
-        information 53. • Match the word ‘e-commerce’ with its definition.
-        Ответ: B) The use of computers and the internet to buy and sell goods
-        and services 54. • Excuse me, ______ a restaurant near here? Ответ: A)
-        is there 55. • _____ the corner, ____ my pocket, _____ the cover. Ответ:
-        A) in/in/on 56. • _____ the top of the page, ____ the end of the road,
-        ____ the ceiling. Ответ: A) at/at/on 57. • ______ rice do you need?
-        Ответ: A) How much 58. • We were sitting ______ the table, enjoying the
-        view of the lake. Ответ: A) at 59. • The library is ______ the corner,
-        right next to the bookstore. Ответ: C) at 60. • The cat was curled up
-        ______ the sofa, sleeping soundly. Ответ: A) on 61. • We live _____ a
-        small village near the coast. Ответ: D) in 62. • ______ no time to
-        waste, we need to leave right now! Ответ: B) there is 63. • Two ______
-        were sitting on the bench. Ответ: C) children 64. • The ______ were
-        grazing peacefully in the meadow. Ответ: B) sheep 65. • The ______ are
-        often mistaken for ______. Ответ: A) mice, rats 66. • The ______ were
-        singing beautifully in the choir. Ответ: C) women 67. • ______ you
-        ______ to music now? Ответ: A) Are / listening 68. • Application
-        software includes: Ответ: D) a and b 69. • Application hardware
-        includes: Ответ: C) power point 70. • I can't use my ___ because its
-        keyboard doesn't work. Ответ: A) laptop 71. • Which of these is NOT a
-        type of software? Ответ: C) printer 72. • Which of these is NOT a type
-        of computer hardware? Ответ: C) website 73. • I ______ my homework right
-        now. Ответ: A) am doing 74. • She uses a ______ to video call her
-        friends and family abroad. Ответ: A) webcam 75. • I ______ a lot of time
-        on social media every day. Ответ: A) spend 76. • Match the word
-        ‘WEBSITE’ with its definition. Ответ: A) A collection of web pages that
-        are linked together and accessible on the internet 77. • She was born
-        ______ 2005. Ответ: B) in 78. • The concert begins ______ 8:00 o'clock.
-        Ответ: B) at 79. • I ______ read when I was four years old. Ответ: B)
-        could 80. • Where did they see the movie? Ответ: D) Where did they see
-        the movie? 81. • This is the ____ painting I have ever seen. Ответ: B)
-        most beautiful 82. • This car is ____ than mine. Ответ: B) faster 83. •
-        This book is ____ than the last one. Ответ: A) more interesting 84. •
-        She runs ____ than her brother. Ответ: D) faster 85. • He completed the
-        task ____ than I did. Ответ: B) quicker 86. • This task is not as ____
-        as I thought. Ответ: D) easy 87. • She (not/see) the email. Ответ: B)
-        did not see 88. • He (write) a letter to his friend. Ответ: A) wrote 89.
-        • She sings as beautifully as her sister. Ответ: B) She sings as
-        beautifully as her sister. 90. • Yesterday, I (wake) up early and (go)
-        for a run. Ответ: B) woke/went 91. • He is the smartest student in the
-        class. Ответ: C) He is the smartest student in the class. 92. • We
-        (travel) to Italy last summer. Ответ: D) traveled 93. • This movie is
-        not as _____ as the previous one. Ответ: D) exciting 94. • She did not
-        go to the party. Ответ: B) She did not go to the party. 95. • This
-        painting is ______ than the one in the museum. Ответ: D) more beautiful
-        96. • He (not/like) the movie. Ответ: D) did not like 97. • Did she
-        write a letter to her friend? Ответ: B) Did she write a letter to her
-        friend? 98. • This task is not as _____ as it seems. Ответ: C) simple
-        99. • She finished her homework last night. Ответ: A) She finished her
-        homework last night. 100. • They ____ very happy at the party last
-        night. Ответ: B) were 101. • Did you see the new movie yesterday? Ответ:
-        A) Did 102. • The weather … unusually lovely. Ответ: C) was 103. • Mr.
-        Candy locked the door and … outside. Ответ: A) went 104. • Who
-        discovered “Penicillin”? Ответ: A) Alexander Fleming 105. • When was WWW
-        invented? Ответ: A) in 1990-91 106. • They ______ at the park when it
-        started raining. Ответ: A) were 107. • Modern inventions should make our
-        life ______. Ответ: D) easier and better 108. • X-ray machines produced
-        images of different parts in the ______. Ответ: B) human body 109. •
-        Penicillin is used to kill ______ bacteria in our bodies. Ответ: A)
-        dangerous 110. • She paints _____; she is a _____ painter. Ответ: C)
-        well / good 111. • John is ______ than Peter. Ответ: B) taller 112. •
-        _____ children are older than _____. Ответ: B) Mine / hers 113. • The
-        Plaza is the _____ hotel. Ответ: B) cheapest 114. • Prague is one of the
-        _____ cities in Europe. Ответ: A) most beautiful 115. • When he was
-        young, he ______ run very fast. Ответ: B) could 116. • If you want to
-        learn English, you _____ speak your language in English lessons. Ответ:
-        C) shouldn’t 117. • My little sister _____ paint pictures alone when she
-        _____ nine, but she _____ now. Ответ: C) couldn’t / was / can 118. • I
-        _____ play football well, but I _____ play ice hockey very well. Ответ:
-        A) can’t / can 119. • Adam _____ ride a motorbike but he _____ drive a
-        car. Ответ: A) can / can’t 120. • You _____ come with me if you don’t
-        want to. I’ll go on my own. Ответ: A) don’t have to 121. • I’ll dry the
-        dishes if you _____ them _____. Ответ: D) wash / up 122. • Can you _____
-        the time of the next train to London? Ответ: B) find out 123. • “Look at
-        these shoes! They’re brand new, and the heel’s fallen off already.”
-        Ответ: D) Take / back 124. • "Oh, dear! The washing machine isn’t
-        working..." Ответ: C) sort / out 125. • The fire was so intense that it
-        took the firemen three hours to _____ it _____. Ответ: C) put / out 126.
-        • What does the phrasal verb "wake up" mean? Ответ: B) To stop sleeping
-        127. • Which word is related to Social Media? Ответ: B) Instagram 128. •
-        She goes to the park every day. Ответ: B) She goes to the park every
-        day. 129. • Which of these words is an adverb of frequency? Ответ: A)
-        Always 130. • This shirt is too small. Ответ: A) This shirt is too
-        small. 131. • She is not tall enough. Ответ: A) She is not tall enough.
-        132. • Both apples are red. Ответ: A) Both apples are red. 133. • Does
-        she like pizza? Ответ: C) Does she like pizza? 134. • Neither of us is
-        tired. Ответ: A) Neither of us is tired. 135. • What does "sometimes"
-        mean? Ответ: C) Not always, but often 136. • What does "log in" mean?
-        Ответ: B) To sign into your account 137. • What does "send out" mean?
-        Ответ: B) To send an email or message 138. • Both cats are cute. Ответ:
-        A) Both cats are cute. 139. • He doesn’t like coffee. Ответ: B) He
-        doesn’t like coffee. 140. • What does "turn off" mean? Ответ: C) To stop
-        something from working 141. • I am so tired. Ответ: A) I am so tired.
-        142. • Which is an example of social media? Ответ: A) Twitter 143. •
-        What does "download" mean? Ответ: B) To get information from the
-        internet 144. • She has such a nice dress. Ответ: A) She has such a nice
-        dress. 145. • Does he play tennis? Ответ: A) Does he play tennis? 146. •
-        He is tall enough to play football. Ответ: B) He is tall enough to play
-        football. 147. • What does “set up” mean? Ответ: B) To organize or
-        prepare something 148. • I can speak English. Ответ: B) I can speak
-        English. 149. • This cake is too sweet. Ответ: A) This cake is too
-        sweet. 150. • I am never tired. Ответ: C) I am never tired.
-      </p>
-    </section>
+    <!-- <section class="otvet active">
+      
+    </section> -->
   </body>
 </html>
